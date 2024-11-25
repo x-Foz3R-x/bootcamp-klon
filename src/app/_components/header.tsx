@@ -2,7 +2,7 @@ import Illustration from "~/svg/illustration";
 
 export default function Header() {
   return (
-    <div className="flex w-[1440px] justify-between px-[100px]">
+    <div className="flex justify-between">
       <div className="flex flex-col items-start gap-[35px]">
         <h1 className="text-[60px] font-medium">
           Navigating the <br /> digital landscape <br />
@@ -17,6 +17,7 @@ export default function Header() {
           Book a consultation
         </button>
       </div>
+
       <Illustration className="h-[515px]" />
     </div>
   );

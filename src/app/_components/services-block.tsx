@@ -8,7 +8,7 @@ import CardIllustration6 from "~/svg/card-illustration6";
 
 export default function ServicesBlock() {
   return (
-    <div className="grid w-[1440px] grid-cols-2 gap-10 px-[100px]">
+    <div className="grid w-full grid-cols-1 justify-items-center gap-10 xl:grid-cols-2">
       <ServiceCard
         heading={{ text: ["Search engine", "optimization"], className: "bg-[#B9FF66]" }}
         arrow={{ bg: "#191A23", color: "#B9FF66" }}

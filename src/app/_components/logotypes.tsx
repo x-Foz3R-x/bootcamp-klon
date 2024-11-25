@@ -7,7 +7,7 @@ import Zoom from "~/svg/zoom";
 
 export default function Logotypes() {
   return (
-    <div className="flex w-[1440px] justify-between px-[100px]">
+    <div className="flex justify-between">
       <Amazon className="h-12" />
       <Dribble className="h-12" />
       <Hubspot className="h-12" />

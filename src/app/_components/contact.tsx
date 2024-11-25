@@ -5,7 +5,7 @@ import ContactIllustration from "~/svg/contact-illustration";
 
 export default function Contact() {
   return (
-    <div className="flex w-[1440px] flex-col gap-[30px] px-[100px]">
+    <div className="flex flex-col gap-[30px]">
       <div className="relative flex items-center gap-[10px] rounded-[45px] bg-[#F3F3F3] px-[100px] pb-[80px] pt-[60px]">
         <form className="flex w-1/2 flex-col gap-10">
           <RadioGroup
